@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/refeicoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Refeições"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="#ff7700"/>
+    <TextView
+        android:id="@+id/cafe_da_manha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:text="Café da Manhã"
+        android:textSize="15sp"
+        android:drawableTop="@drawable/breakfast2"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:layout_marginStart="32dp"
+        android:layout_below="@+id/refeicoes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp" />
+    <TextView
+        android:id="@+id/almoco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Almoço"
+        android:layout_marginRight="41dp"
+        android:textSize="15sp"
+        android:drawableTop="@drawable/fish"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:layout_marginEnd="41dp"
+        android:layout_alignBaseline="@+id/cafe_da_manha"
+        android:layout_alignBottom="@+id/cafe_da_manha"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/sobremesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Sobremesa    "
+        android:textSize="15sp"
+        android:drawableTop="@drawable/jelly"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/cafe_da_manha"
+        android:layout_alignStart="@+id/cafe_da_manha"
+        android:layout_marginBottom="115dp" />
+    <TextView
+        android:id="@+id/lanche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Lanche  "
+        android:textSize="15sp"
+        android:drawableTop="@drawable/burger"
+        android:clickable="true"
+        android:onClick="selecionarOpcao"
+        android:layout_alignBaseline="@+id/sobremesa"
+        android:layout_alignBottom="@+id/sobremesa"
+        android:layout_alignLeft="@+id/almoco"
+        android:layout_alignStart="@+id/almoco" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="10sp"
+        android:text="Images by Freepik and distributed by Flaticon"
+        android:id="@+id/textView3" />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+
