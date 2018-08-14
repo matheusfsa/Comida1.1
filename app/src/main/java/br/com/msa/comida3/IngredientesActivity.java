@@ -42,8 +42,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-               CharSequence[] itens =  new CharSequence[]{"Açúcar","Arroz","Café Solúvel","Catchup","Extrato de tomate","Farinha de trigo","Farinha de Rosca","Macarrão","Molho de tomate","Ovo","Óleo","Pão","Pão de forma integral","Pão de forma","Sal","Tapioca"};
-                final String[] itens2 = {"Açúcar","Arroz","Café Solúvel","Catchup","Extrato de tomate","Farinha de trigo","Farinha de Rosca","Macarrão","Molho de tomate","Ovo","Óleo","Pão","Pão de forma integral","Pão de forma","Sal","Tapioca"};
+               CharSequence[] itens =  new CharSequence[]{"Arroz", "Açúcar", "Cebola", "Extrato de tomate", "Farinha de trigo", "Macarrão", "Massa de Lasanha", "Molho de tomate", "Ovo", "Pão", "Pão de forma", "Pão de forma integral", "Sal", "Tapioca", "Óleo"};
+                final String[] itens2 = {"Arroz", "Açúcar", "Cebola", "Extrato de tomate", "Farinha de trigo", "Macarrão", "Massa de Lasanha", "Molho de tomate", "Ovo", "Pão", "Pão de forma", "Pão de forma integral", "Sal", "Tapioca", "Óleo"};
                ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo1);
                 Dialogo(itens,"Itens Básicos", itens2, listaIngredientes);
 
@@ -55,8 +55,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-                CharSequence[] itens =  new CharSequence[]{"Queijo Muçarela","Queijo cottage","Requeijão cremoso","Margarina ou Manteiga","Maionese","Leite","Creme de leite","Queijo parmesão ralado"};
-                final String[] itens2 = {"Queijo Muçarela","Queijo cottage","Requeijão cremoso","Margarina ou Manteiga","Maionese","Leite","Creme de leite","Queijo parmesão ralado"};
+                CharSequence[] itens =  new CharSequence[]{"Creme de leite", "Leite", "Maionese", "Margarina ou Manteiga", "Queijo Muçarela", "Queijo cottage", "Queijo parmesão ralado", "Queijo provolone", "Requeijão cremoso", "Ricota"};
+                final String[] itens2 = {"Creme de leite", "Leite", "Maionese", "Margarina ou Manteiga", "Queijo Muçarela", "Queijo cottage", "Queijo parmesão ralado", "Queijo provolone", "Requeijão cremoso", "Ricota"};
                 ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo2);
                   Dialogo(itens,"Lacticínios", itens2, listaIngredientes);
 
@@ -69,8 +69,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-                CharSequence[] itens =  new CharSequence[]{"Presunto","Salsicha","Salame","Calabresa"};
-                final String[] itens2 = {"Presunto","Salsicha","Salame","Calabresa"};
+                CharSequence[] itens =  new CharSequence[]{"Calabresa", "Presunto", "Salame", "Salsicha"};
+                final String[] itens2 = {"Calabresa", "Presunto", "Salame", "Salsicha"};
                 ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo3);
                 Dialogo(itens,"Embutidos", itens2, listaIngredientes);
 
@@ -84,8 +84,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-                CharSequence[] itens =  new CharSequence[]{"Abacate","Abacaxi","Acerola","Açaí","Cajá","Caju","Goiaba","Laranja","Manga","Tomate"};
-                final String[] itens2 = {"Abacate","Abacaxi","Acerola","Açaí","Cajá","Caju","Goiaba","Laranja","Manga","Tomate"};
+                CharSequence[] itens =  new CharSequence[]{"Abacate", "Abacaxi", "Açaí", "Caju", "Cajá", "Goiaba", "Laranja", "Manga", "Tomate"};
+                final String[] itens2 = {"Abacate", "Abacaxi", "Açaí", "Caju", "Cajá", "Goiaba", "Laranja", "Manga", "Tomate"};
                 ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo4);
                 Dialogo(itens,"Frutas", itens2, listaIngredientes);
 
@@ -98,8 +98,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-                CharSequence[] itens =  new CharSequence[]{"Abobrinha","Alface","Alho","Amendoim","Batata","Batata doce","Cenoura","Mandioca","Milho"};
-                final String[] itens2 = {"Abobrinha","Alface","Alho","Amendoim","Batata","Batata doce","Cenoura","Mandioca","Milho"};
+                CharSequence[] itens =  new CharSequence[]{"Abobrinha", "Amendoim", "Batata", "Batata doce", "Cenoura", "Mandioca", "Manjericão", "Milho", "Salsa(ou salsinha)"};
+                final String[] itens2 = {"Abobrinha", "Amendoim", "Batata", "Batata doce", "Cenoura", "Mandioca", "Manjericão", "Milho", "Salsa(ou salsinha)"};
                 ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo5);
                 Dialogo(itens,"Verduras/Legumes/Grãos", itens2, listaIngredientes);
 
@@ -113,8 +113,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-                CharSequence[] itens =  new CharSequence[]{"Carne de boi","Acém","Alcatra","Atum","Bacalhau","Bacon","Bife de filé mignon","Carne do Sol","Carne Moída","Coxa de Frango","Coxão Mole","Filé de merluza","Filé de Frango","Filé de peito de Frango","Frango","Salmão","Sardinha","Sobrecoxa de Frango","Toucinho"};
-                final String[] itens2 = {"Carne de boi","Acém","Alcatra","Atum","Bacalhau","Bacon","Bife de filé mignon","Carne do Sol","Carne Moída","Contra Filé","Coxa de Frango","Coxão Mole","Filé de merluza","Filé de Frango","Filé de peito de Frango","Frango","Salmão","Sardinha","Sobrecoxa de Frango","Toucinho"};
+            CharSequence[] itens =  new CharSequence[]{"Acém", "Alcatra", "Atum", "Bacalhau", "Bacon", "Camarão", "Carne Moída", "Carne de boi", "Carne do Sol", "Costela Suína", "Coxa de Frango", "Coxão Mole", "Filé de Frango", "Filé de merluza","Filé Mignon", "Frango", "Lombo Suíno", "Maminha", "Peito de Peru", "Salmão", "Sardinha", "Sobrecoxa de Frango", "Toucinho"};
+                final String[] itens2 = {"Acém", "Alcatra", "Atum", "Bacalhau", "Bacon", "Camarão", "Carne Moída", "Carne de boi", "Carne do Sol", "Costela Suína", "Coxa de Frango", "Coxão Mole", "Filé de Frango", "Filé de merluza","Filé Mignon", "Frango", "Lombo Suíno", "Maminha", "Peito de Peru", "Salmão", "Sardinha", "Sobrecoxa de Frango", "Toucinho"};
                 ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo6);
                 Dialogo(itens,"Carnes", itens2, listaIngredientes);
 
@@ -130,8 +130,8 @@ public class IngredientesActivity extends AppCompatActivity {
             public void onClick (View v){
                 //Lista de itens
 
-                CharSequence[] itens =  new CharSequence[]{"Amido de Milho","Azeite","Azeite de dendê","Chocolate","Coco ralado","Caldo de Carne","Goiabada","Doce de leite","Farinha","Farinha de Milho","Fermento em pó","Fermento biológico","Leite de Coco","Mostarda","Mostarda em pó","Molho Inglês","Nutella","Patê de Frango","Patê de Presunto","Polvilho azedo","Polvilho doce","Shoyu","Vinho Branco"};
-                final String[] itens2 = {"Amido de Milho","Azeite","Azeite de dendê","Chocolate","Coco ralado","Caldo de Carne","Goiabada","Doce de leite","Fermento em pó","Fermento biológico","Leite de Coco","Mostarda","Mostarda em pó","Molho Inglês","Nutella","Patê de Frango","Patê de Presunto","Polvilho azedo","Polvilho doce","Shoyu","Vinho Branco"};
+                CharSequence[] itens =  new CharSequence[]{"Amido de Milho", "Azeite", "Azeite de dendê", "Café Solúvel", "Caldo de Carne","Catchup", "Chocolate", "Coco ralado", "Doce de leite", "Farinha", "Farinha de Milho","Farinha de Rosca", "Fermento biológico", "Fermento em pó", "Goiabada", "Leite de Coco", "Molho Inglês", "Molho Madeira", "Mostarda", "Mostarda em pó", "Nutella", "Patê de Frango", "Patê de Presunto", "Polvilho azedo", "Polvilho doce", "Shoyu", "Vinho Branco"};
+                final String[] itens2 = {"Amido de Milho", "Azeite", "Azeite de dendê", "Café Solúvel", "Caldo de Carne","Catchup", "Chocolate", "Coco ralado", "Doce de leite", "Farinha", "Farinha de Milho","Farinha de Rosca", "Fermento biológico", "Fermento em pó", "Goiabada", "Leite de Coco", "Molho Inglês", "Molho Madeira", "Mostarda", "Mostarda em pó", "Nutella", "Patê de Frango", "Patê de Presunto", "Polvilho azedo", "Polvilho doce", "Shoyu", "Vinho Branco"};
                 ListView listaIngredientes= (ListView) findViewById(R.id.lista_tipo7);
                 Dialogo(itens,"Outros", itens2, listaIngredientes);
 

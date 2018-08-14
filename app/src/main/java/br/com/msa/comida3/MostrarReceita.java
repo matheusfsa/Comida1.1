@@ -133,6 +133,28 @@ public class MostrarReceita extends AppCompatActivity {
         receitas.add(new Receitas("Coxa de frango com ervas","http://mdemulher.abril.com.br/receitas/coxa-de-frango-com-ervas/"));
         receitas.add(new Receitas("Macarrão com molho de requeijão e maionese","http://mdemulher.abril.com.br/receitas/macarrao-com-molho-de-requeijao-e-maionese/"));
         receitas.add(new Receitas("Pizza dois queijos","http://mdemulher.abril.com.br/receitas/pizza-caseira-com-dois-queijos/"));
+        receitas.add(new Receitas("Salada de Melão e Camarão","https://mdemulher.abril.com.br/receitas/salada-de-melao-e-camarao/#"));
+        receitas.add(new Receitas("Lasanha aos Quatro Queijos(o outros 3 são variados)","https://mdemulher.abril.com.br/receitas/lasanha-aos-quatro-queijos/"));
+        receitas.add(new Receitas("Panqueca aos Quatro Queijos","https://mdemulher.abril.com.br/receitas/panqueca-aos-quatro-queijos-com-molho-de-salsa/"));
+        receitas.add(new Receitas("Hambúrguer com Cebola","https://mdemulher.abril.com.br/receitas/cheeseburguer-com-cebola/"));
+        receitas.add(new Receitas("Cocotte de ovo","https://mdemulher.abril.com.br/receitas/cocotte-de-ovo/"));
+        receitas.add(new Receitas("Bolinho de Carne","https://revistasaboresdosul.com.br/bolinho-de-carne/"));
+        receitas.add(new Receitas("Carne de Panela(Alcatra)","http://receitasdecomidas.com.br/carne-de-panela-simples.html"));
+        receitas.add(new Receitas("Arroz de Forno","https://mdemulher.abril.com.br/receitas/arroz-de-forno/"));
+        receitas.add(new Receitas("Talharim com Abobrinha","https://mdemulher.abril.com.br/receitas/talharim-com-abobrinha/"));
+        receitas.add(new Receitas("Espaguete à bolonhesa","https://mdemulher.abril.com.br/receitas/espaguete-a-bolonhesa/"));
+        receitas.add(new Receitas("Macarrão aromático","https://mdemulher.abril.com.br/receitas/macarrao-aromatico/"));
+        receitas.add(new Receitas("Maminha Assada","https://mdemulher.abril.com.br/receitas/maminha-assada-com-manjericao/"));
+        receitas.add(new Receitas("Costela com Mandioca","https://mdemulher.abril.com.br/receitas/costelinha-assada-com-mandioca/"));
+        receitas.add(new Receitas("Lombo assado com batata e maionese","https://mdemulher.abril.com.br/receitas/lombo-assado-com-batata-e-maionese/"));
+        receitas.add(new Receitas("Macarrão com Salame","http://www.tudogostoso.com.br/receita/48996-macarrao-com-salame.html"));
+        receitas.add(new Receitas("Macarrão com Calabresa","http://www.tudogostoso.com.br/receita/15559-macarrao-com-calabresa-na-panela-de-pressao.html"));
+        receitas.add(new Receitas("Pão de Calabresa","http://www.tudogostoso.com.br/receita/48772-pao-de-calabresa.html"));
+        receitas.add(new Receitas("Rocambole de Carne","http://www.tudogostoso.com.br/receita/1598-rocambole-de-carne-moida-maravilhoso.html"));
+        receitas.add(new Receitas("Siricaia","http://www.tudogostoso.com.br/receita/12988-siricaia.html"));
+        receitas.add(new Receitas("Abacaxi Gelado","http://www.tudogostoso.com.br/receita/12093-abacaxi-gelado.html"));
+
+
 
 
 
